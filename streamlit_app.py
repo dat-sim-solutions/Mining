@@ -1,7 +1,7 @@
+from app.models import calculate_slope_stability
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
-from app.models import calculate_slope_stability
 
 st.set_page_config(page_title="Geophysics Stability Pro 2026", layout="wide")
 
@@ -59,4 +59,5 @@ with col2:
     ax.set_aspect('equal')
     ax.set_title(f"Stability Map (FS: {fs})")
     ax.grid(True, alpha=0.3)
+
     st.pyplot(fig)
