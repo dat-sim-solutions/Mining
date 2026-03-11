@@ -1,7 +1,7 @@
 Steps for web app in streamlit:  
 Tailing_app/  
 ├── app/  
-│ ├── init.py # Makes 'app' a package. It is empty.  
+│ ├── __init__.py # Makes 'app' a package. It is empty.  
 │ └── models.py  
 |____ streamlit_app.py  
 
